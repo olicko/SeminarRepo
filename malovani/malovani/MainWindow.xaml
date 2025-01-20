@@ -1,0 +1,36 @@
+﻿<Window x:Class="malovani.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:malovani"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.ColumnSpan="2">
+            <MenuItem Header="Soubor" >
+                <MenuItem Header="0tevřít" Click="Open"/>
+                <MenuItem Header="Uložit" Click="SAve"/>
+            </MenuItem>
+            <MenuItem Header="Upravit"/>
+        </Menu>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Image Source="/štětec 3.png"/>
+            <Label Content="Tloušťka štětce"/>
+            <Slider Name="ThicknessSlider" Width="150" Margin="5,5,5,5" VerticalAlignment="Center" Minimum="1" IsSnapToTickEnabled="True" SmallChange="1"/>
+            <Label Content="Barva štětce"/>
+            <Button Name="clrButton" Width="60" Click="Button_Click" Background="White"/>
+        </StackPanel>
+        <Canvas Name="DrawCanvas" Grid.Row="2" Grid.ColumnSpan="2" Background="White" MouseDown="DrawCanvas_MouseDown" MouseUp="DrawCanvas_MouseUp" MouseMove="DrawCanvas_MouseMove"/>
+    </Grid>
+</Window>
