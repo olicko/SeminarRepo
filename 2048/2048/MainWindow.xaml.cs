@@ -19,15 +19,22 @@ namespace _2048
         public MainWindow()
         {
             InitializeComponent();
-            
+            CreateGameGrid();
         }
 
         public void CreateGameGrid()
         {
             for (int i = 0; i < 4; i++) 
             {
-                for(int j = 0; j < 4; j++) {
+                for (int j = 0; j < 4; j++)
+                { 
+                    Label label = new Label();
 
+                    Grid.SetRow(label, i);
+                    Grid.SetColumn(label, j);
+
+                    
+                }
             }
         }
     }
