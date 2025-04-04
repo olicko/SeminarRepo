@@ -14,6 +14,7 @@ namespace ConsoleApp1
             int[] costs = { 2, 2, 4, 5, 3 };
             long capacity = 7;
             DynamicReturnValues(weights, costs, capacity);
+            Console.ReadLine();
         }
         static void DynamicReturnValues(int[] we, int[] co, long ca)
         { 

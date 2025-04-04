@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemBatohuBacktracking", "ProblemBatohuBacktracking\ProblemBatohuBacktracking.csproj", "{B5A9FBB9-DBDB-4073-A0D4-A7BC5A65C90F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NejdelsiRostouciPodposloupnost", "NejdelsiRostouciPodposloupnost\NejdelsiRostouciPodposloupnost.csproj", "{3E2E5514-4B5D-40C9-9022-9E81462A548F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5A9FBB9-DBDB-4073-A0D4-A7BC5A65C90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5A9FBB9-DBDB-4073-A0D4-A7BC5A65C90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5A9FBB9-DBDB-4073-A0D4-A7BC5A65C90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5A9FBB9-DBDB-4073-A0D4-A7BC5A65C90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2E5514-4B5D-40C9-9022-9E81462A548F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2E5514-4B5D-40C9-9022-9E81462A548F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2E5514-4B5D-40C9-9022-9E81462A548F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2E5514-4B5D-40C9-9022-9E81462A548F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0CA3A195-7A3E-4C7E-B97D-B000902C300F}
+		SolutionGuid = {76627C8C-D6A1-43F0-952F-AD993202CCAA}
 	EndGlobalSection
 EndGlobal
